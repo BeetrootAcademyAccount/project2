@@ -1,0 +1,5 @@
+{"scripts": {"watch:scss": "node-sass -w assets/style/landing.scss assets/style/landing.css"},
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
