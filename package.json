@@ -1,4 +1,7 @@
-{"scripts": {"watch:scss": "node-sass -w assets/style/landing.scss assets/style/landing.css"},
+{
+  "scripts": {
+    "watch:scss": "node-sass -w assets/style/catalog.scss assets/style/catalog.css"
+  },
   "dependencies": {
     "node-sass": "^9.0.0"
   }
