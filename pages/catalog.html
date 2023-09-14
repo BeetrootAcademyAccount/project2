@@ -1,19 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style/catalog.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/assets/style/catalog.css" type="text/css" />
     <title>Catalog</title>
-</head>
-<body>
+  </head>
+  <body>
     <header></header>
-    <main></main>
+    <main class="main-catalog">
+      <img
+        class="main-catalog-photo"
+        src="/assets/img/palms.jpg"
+        alt="tshirt"
+      />
+
+      <section class="description">
+        <span>Plan</span><span>your</span><span>next</span><span>adventure</span
+        ><span>with</span><span>us!</span>
+      </section>
+
+      <div class="slider-container">
+        <div class="slider-container-annotation">Destinations</div>
+        <div class="horizontal-line"></div>
+        <ul class="destinations z-1 slider">
+          <li class="destinations__img-box">
+            <img
+              class="destinations__clothing-item-img"
+              src="https://picsum.photos/id/237/200/300"
+              alt="tshirt"
+            />
+            <div class="destinations__img-box-text">
+              <h3>Spain</h3>
+              <p>Price: 1500$</p>
+              <p>Hotel: Sayonara</p>
+            </div>
+            <a
+              href="https://stockx.com/search?s=yeezy+gap+balenciaga"
+              target="_blank"
+              >Book!</a
+            >
+          </li>
+          <li
+            class="destinations__img-box position-relative overflow-hidden d-flex"
+          >
+            <img
+              class="destinations__clothing-item-img"
+              src="https://picsum.photos/id/237/200/300"
+              alt="jeans"
+            />
+            <div class="destinations__img-box-text">
+              <h3>Spain</h3>
+              <p>Price: 1500$</p>
+              <p>Hotel: Sayonara</p>
+            </div>
+            <a href="https://www.carhartt-wip.com/en/men-denim" target="_blank"
+              >Book!</a
+            >
+            <div class="destinations__img-box__discount">HOT TOURS</div>
+          </li>
+          <li class="destinations__img-box">
+            <img
+              class="destinations__clothing-item-img item-3"
+              src="https://picsum.photos/id/237/200/300"
+              alt="dress"
+            />
+            <div class="destinations__img-box-text">
+              <h3>Spain</h3>
+              <p>Price: 1500$</p>
+              <p>Hotel: Sayonara</p>
+            </div>
+            <a
+              href="https://www.ysl.com/en-en/saint-laurent-women/ready-to-wear/dresses-and-skirts"
+              target="_blank"
+              >Book!</a
+            >
+          </li>
+          <li class="destinations__img-box">
+            <img
+              class="destinations__clothing-item-img item-3"
+              src="https://picsum.photos/id/237/200/300"
+              alt="dress"
+            />
+            <div class="destinations__img-box-text">
+              <h3>Spain</h3>
+              <p>Price: 1500$</p>
+              <p>Hotel: Sayonara</p>
+            </div>
+            <a
+              href="https://www.ysl.com/en-en/saint-laurent-women/ready-to-wear/dresses-and-skirts"
+              target="_blank"
+              >Book!</a
+            >
+          </li>
+          <li class="destinations__img-box">
+            <img
+              class="destinations__clothing-item-img item-3"
+              src="https://picsum.photos/id/237/200/300"
+              alt="dress"
+            />
+            <div class="destinations__img-box-text">
+              <h3>Spain</h3>
+              <p>Price: 1500$</p>
+              <p>Hotel: Sayonara</p>
+            </div>
+            <a
+              href="https://www.ysl.com/en-en/saint-laurent-women/ready-to-wear/dresses-and-skirts"
+              target="_blank"
+              >Book!</a
+            >
+          </li>
+          <li class="destinations__img-box">
+            <img
+              class="destinations__clothing-item-img item-3"
+              src="https://picsum.photos/id/237/200/300"
+              alt="dress"
+            />
+            <div class="destinations__img-box-text">
+              <h3>Spain</h3>
+              <p>Price: 1500$</p>
+              <p>Hotel: Sayonara</p>
+            </div>
+            <a
+              href="https://www.ysl.com/en-en/saint-laurent-women/ready-to-wear/dresses-and-skirts"
+              target="_blank"
+              >Book!</a
+            >
+          </li>
+        </ul>
+      </div>
+      <section class="gallery">
+        <div class="gallery-item gallery-item-1">
+          <img
+            class="destinations__clothing-item-img"
+            src="/assets/img/main-background.png"
+            alt="tshirt"
+          />
+        </div>
+        <div class="gallery-item gallery-item-2">
+          <img
+            class="destinations__clothing-item-img"
+            src="https://picsum.photos/id/237/200/300"
+            alt="tshirt"
+          />
+        </div>
+        <div class="gallery-item gallery-item-3">
+          <img
+            class="destinations__clothing-item-img"
+            src="https://picsum.photos/id/237/200/300"
+            alt="tshirt"
+          />
+        </div>
+        <div class="gallery-item gallery-item-4">
+          <img
+            class="destinations__clothing-item-img"
+            src="https://picsum.photos/id/237/200/300"
+            alt="tshirt"
+          />
+        </div>
+        <div class="gallery-item gallery-item-5">
+          <img
+            class="destinations__clothing-item-img"
+            src="https://picsum.photos/id/237/200/300"
+            alt="tshirt"
+          />
+        </div>
+        <div class="gallery-item gallery-item-6">
+          <img
+            class="destinations__clothing-item-img"
+            src="https://picsum.photos/id/237/200/300"
+            alt="tshirt"
+          />
+        </div>
+      </section>
+    </main>
     <footer></footer>
-</body>
-<script src=""></script>
+  </body>
+  <script
+    type="text/javascript"
+    src="//code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="/scripts/script.js"></script>
 </html>
