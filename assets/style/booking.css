@@ -74,9 +74,7 @@ body {
 .slick-prev::before,
 .slick-next::before {
   font-size: 40px;
-  /* Adjust the font size to make the arrow icons larger */
-  color: #fff;
-  /* Change the arrow icon color to your preference */ }
+  color: #fff; }
 
 .slick-prev {
   left: 5%;
@@ -93,3 +91,9 @@ body {
   border-radius: 50%;
   width: 30px;
   height: 47px; }
+
+@media (max-width: 1000px) {
+  .book-container {
+    flex-direction: column; }
+  .booking-info_price {
+    margin-bottom: 40px; } }
