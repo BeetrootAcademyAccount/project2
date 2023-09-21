@@ -27,8 +27,9 @@ body {
     list-style: none;
     margin-right: 20px; }
     .book-container .booking-slider img {
-      width: 98%;
-      height: auto; }
+      width: 100%;
+      height: auto;
+      border-radius: 3%; }
   .book-container .booking-info_text {
     margin-bottom: 20px; }
     .book-container .booking-info_text p {
@@ -55,6 +56,8 @@ body {
       font-size: 1.1rem; }
       .book-container .booking-info_price_text a {
         text-decoration: none; }
+    .book-container .booking-info_price .icon-m {
+      margin-right: 10px; }
   .book-container .booking-info .reviews {
     text-decoration: none;
     margin-left: 5px;
@@ -103,6 +106,11 @@ body {
   border-radius: 50%;
   width: 30px;
   height: 47px; }
+
+.info-image {
+  padding: 24px;
+  border-radius: 13px;
+  box-shadow: 0 1px 2px rgba(3, 54, 63, 0.4), 0 -1px 2px rgba(3, 54, 63, 0.04); }
 
 @media (max-width: 1000px) {
   .book-container {

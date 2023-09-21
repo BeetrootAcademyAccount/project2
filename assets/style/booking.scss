@@ -33,10 +33,12 @@ body {
 
     // border-radius: 4%;
     img {
-      width: 98%;
+      width: 100%;
       height: auto;
+      border-radius: 3%;
     }
   }
+
   .booking-info {
     &_text {
       margin-bottom: 20px;
@@ -71,6 +73,9 @@ body {
         a {
           text-decoration: none;
         }
+      }
+      .icon-m {
+        margin-right: 10px;
       }
     }
     .reviews {
@@ -133,6 +138,12 @@ body {
   border-radius: 50%;
   width: 30px;
   height: 47px;
+}
+
+.info-image {
+  padding: 24px;
+  border-radius: 13px;
+  box-shadow: 0 1px 2px rgba(3, 54, 63, 0.4), 0 -1px 2px rgba(3, 54, 63, 0.04);
 }
 
 @media (max-width: 1000px) {
