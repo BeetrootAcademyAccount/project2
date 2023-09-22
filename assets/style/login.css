@@ -1,0 +1,316 @@
+.login__welcome {
+  font-family: "Knewave";
+  font-size: 10rem;
+  font-weight: 400;
+  padding-right: 10px;
+  background: url(/assets/img/login/wallhaven-kxw1l6.jpg);
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: 50%;
+  color: #009de0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  rotate: -10deg; }
+
+.register__register {
+  font-family: "Knewave";
+  font-size: 6rem;
+  font-weight: 400;
+  padding-right: 10px;
+  background: url(/assets/img/login/wallhaven-kxw1l6.jpg);
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: 50%;
+  color: #009de0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+#reg__status {
+  color: green;
+  position: absolute; }
+
+.user__status {
+  margin-right: 25px;
+  gap: 25px; }
+
+#status {
+  margin-bottom: 0; }
+
+body {
+  background-image: url(/assets/img/login/wallhaven-kxw1l6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center; }
+  body header {
+    background-color: rgba(255, 255, 255, 0.8); }
+    body header nav {
+      width: 100%; }
+    body header .logo {
+      height: 75px;
+      width: 75px; }
+    body header .navigation {
+      margin-bottom: 0;
+      margin-right: 25px;
+      max-width: 350px;
+      list-style: none;
+      gap: 25px; }
+  body main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; }
+
+.frame {
+  border-radius: 50px;
+  height: 850px;
+  width: 800px;
+  min-width: 800px;
+  max-width: 1600px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
+
+.login {
+  width: 800px;
+  height: 850px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50px 50px 50px 50px; }
+  .login .inpt__username {
+    width: 100%;
+    min-width: 10%;
+    max-width: 20rem;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #009de0;
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 20px; }
+  .login .inpt__password {
+    width: 100%;
+    min-width: 10%;
+    max-width: 20rem;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #009de0;
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 20px; }
+  .login .btn__login {
+    background-color: #009de0;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    min-width: 10%;
+    max-width: 20rem;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease; }
+    .login .btn__login:hover {
+      background-color: #ffffff;
+      color: #009de0;
+      border: 1px solid #009de0; }
+  .login .btn__register {
+    background-color: #ffffff;
+    color: #009de0;
+    border-radius: 50px;
+    border: 1px solid #009de0;
+    width: 100%;
+    min-width: 10%;
+    max-width: 20rem;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease; }
+    .login .btn__register:hover {
+      background-color: #009de0;
+      color: #ffffff;
+      border: none; }
+
+.register {
+  visibility: hidden;
+  width: 800px;
+  height: 850px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0px 50px 50px 0px; }
+  .register .reg__firstname {
+    width: 100%;
+    min-width: 10%;
+    max-width: 20rem;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #009de0;
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 10rem; }
+  .register .reg__lastname {
+    width: 100%;
+    min-width: 10%;
+    max-width: 20rem;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #009de0;
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 20px; }
+  .register .reg__email {
+    width: 100%;
+    min-width: 10%;
+    max-width: 20rem;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #009de0;
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 20px; }
+  .register .reg__password {
+    width: 100%;
+    min-width: 10%;
+    max-width: 20rem;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #009de0;
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 20px; }
+  .register .reg__confirm {
+    width: 100%;
+    min-width: 10%;
+    max-width: 20rem;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #009de0;
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 20px; }
+  .register .btn__submit {
+    visibility: hidden;
+    background-color: #009de0;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    width: 100%;
+    min-width: 10%;
+    max-width: 20rem;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease; }
+    .register .btn__submit:hover {
+      background-color: #ffffff;
+      color: #009de0;
+      border: 1px solid #009de0; }
+
+@media (max-width: 768px) {
+  .login__welcome {
+    font-size: 8rem; }
+  .register__register {
+    font-size: 8rem; }
+  .frame {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0px; }
+  .login {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px; }
+  .register {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px; } }
+
+@media (max-width: 576px) {
+  .user__status {
+    visibility: hidden; }
+  .login__welcome {
+    font-size: 6rem; }
+  .register__register {
+    font-size: 6rem; }
+  .frame {
+    width: 100%;
+    border-radius: 0px; }
+  .login {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px; }
+  .register {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px; } }
+
+@media (max-width: 320px) {
+  .frame {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px; }
+  .login {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px; }
+  .register {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px; } }
+
+.d-flex {
+  display: flex; }
+
+.justify-content-center {
+  justify-content: center; }
+
+.align-items-center {
+  align-items: center; }
+
+.center {
+  text-align: center; }
+
+.padding-20 {
+  padding: 20px; }
+
+.margin-20 {
+  margin: 20px; }
+
+.margin-top-20 {
+  margin-top: 20px; }
+
+.margin-bottom-20 {
+  margin-bottom: 20px; }
+
+.margin-left-20 {
+  margin-left: 20px; }
+
+.margin-right-20 {
+  margin-right: 20px; }
+
+.flex-column {
+  flex-direction: column; }
+
+.flex-row {
+  flex-direction: row; }
+
+.flex-wrap {
+  flex-wrap: wrap; }
+
+.flex-nowrap {
+  flex-wrap: nowrap; }
+
+.justify-space-evenly {
+  justify-content: space-evenly; }
+
+.justify-space-between {
+  justify-content: space-between; }
+
+.justify-space-around {
+  justify-content: space-around; }
+
+.flex-end {
+  justify-content: flex-end; }

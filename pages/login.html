@@ -1,19 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style/login.css" type="text/css">
-    <title>Booking</title>
-</head>
-<body>
-    <header></header>
-    <main></main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Knewave&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/style/login.css" type="text/css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header class="d-flex flex-end justify-content-between">
+      <img
+        class="logo"
+        src="/assets/img/logo/road runner-logos_black.png"
+        alt="Company Logo"
+      />
+      <nav class="d-flex align-items-center justify-content-between">
+        <ul class="navigation d-flex justify-space-between">
+          <li><a href="/landing.html">Home</a></li>
+          <li><a href="/pages/catalog.html">Catalog</a></li>
+          <li><a href="/pages/booking.html">Booking</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+        </ul>
+        <div class="user__status d-flex align-items-center">
+          <p id="status"><a href="/pages/login.html">Login/Register</a></p>
+          <i class="fa-solid fa-user"></i>
+          <a id="logout" href="/pages/login.html"></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="frame" class="frame d-flex">
+        <section class="login d-flex flex-column justify-space-evenly">
+          <div class="d-flex justify-content-center">
+            <h2 class="login__welcome">WELCOME</h2>
+          </div>
+          <div
+            class="login__credentials d-flex justify-content-center flex-column align-items-center"
+          >
+            <!-- Login Details-->
+            <h3 id="login__status"></h3>
+            <form
+              class="login__form d-flex justify-content-center flex-column align-items-center"
+              action=""
+              method="post"
+            >
+              <label for="email"></label>
+              <input
+                class="inpt__username margin-bottom-20"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                value=""
+                required
+              />
+              <label for="userpassword"></label>
+              <input
+                class="inpt__password margin-bottom-20"
+                name="userpassword"
+                id="userpassword"
+                type="password"
+                placeholder="Password"
+                value=""
+                required
+              />
+              <span id="login__feedback"></span>
+              <button
+                class="btn__login margin-bottom-20 margin-top-20"
+                type="submit"
+              >
+                Login
+              </button>
+            </form>
+            <span>-OR-</span>
+            <!-- Register Button-->
+            <button class="btn__register margin-top-20" type="submit">
+              Register Now!
+            </button>
+          </div>
+        </section>
+        <section
+          id="register"
+          class="register d-flex justify-content-center flex-column align-items-center"
+        >
+          <div>
+            <h2 class="register__register">REGISTER</h2>
+          </div>
+          <div class="d-flex align-items-center justify-content-center">
+            <h3 id="reg__status"></h3>
+            <form
+              class="register__form d-flex justify-content-center flex-column align-items-center"
+              action=""
+              method="post"
+            >
+              <label for="firstname"></label>
+              <input
+                class="reg__firstname margin-bottom-20"
+                type="text"
+                placeholder="First Name"
+                name="firstname"
+                id="firstname"
+              />
+              <label for="lastname"></label>
+              <input
+                class="reg__lastname margin-bottom-20"
+                type="text"
+                placeholder="Last Name"
+                name="lastname"
+                id="lastname"
+              />
+              <label for="useremail"></label>
+              <input
+                class="reg__email margin-bottom-20"
+                type="email"
+                placeholder="Email"
+                name="useremail"
+                id="useremail"
+              />
+              <label for="password"></label>
+              <input
+                class="reg__password margin-bottom-20"
+                type="password"
+                placeholder="Password"
+                name="password"
+                id="password"
+              />
+              <label for="confirmpassword"></label>
+              <span id="reg__feedback"></span>
+              <input
+                class="reg__confirm margin-bottom-20"
+                type="password"
+                placeholder="Confirm Password"
+                name="confirmpassword"
+                id="confirmpassword"
+              />
+              <div class="newsletter">
+                <input
+                  class="reg__newsletter margin-bottom-20"
+                  type="checkbox"
+                  required
+                />
+                <label for="newsletter"
+                  >I accept the Terms and Conditions</label
+                >
+              </div>
+              <button
+                class="btn__submit margin-bottom-20 margin-top-20"
+                type="submit"
+              >
+                Register
+              </button>
+            </form>
+          </div>
+        </section>
+      </section>
+    </main>
     <footer></footer>
-</body>
-<script src=""></script>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"
+  ></script>
+  <script src="/scripts/login.js"></script>
 </html>
