@@ -1,19 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style/booking.css" type="text/css">
-    <title>Booking</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../assets/style/booking.css" type="text/css" />
+    <title>Book Your Trip</title>
+  </head>
+  <body>
     <header></header>
-    <main></main>
+    <main class="">
+      <section class="book-container">
+        <ul class="booking-slider">
+          <li><img src="../assets/img/spain1.jpg" alt="" /></li>
+          <li><img src="../assets/img/spain2.jpg" alt="" /></li>
+          <li><img src="../assets/img/spain3.jpg" alt="" /></li>
+          <li><img src="../assets/img/spain5.jpg" alt="" /></li>
+          <li><img src="../assets/img/spain4.jpg" alt="" /></li>
+        </ul>
+        <section class="booking-info">
+          <div class="booking-info_text">
+            <h1 class="">Spain Wanderer</h1>
+            <p>
+              14 days
+              <i class="fas fa-star fa-sm days14" style="color: #ffd700"></i>
+              <i class="fas fa-star fa-sm" style="color: #ffd700"></i>
+              <i class="fas fa-star fa-sm" style="color: #ffd700"></i>
+              <i class="far fa-star fa-sm" style="color: #ffd700"></i>
+              <a href="" class="reviews">78 reviews</a>
+            </p>
+            <div class="booking-info_text_wrapper">
+              <dl>
+                <div>
+                  <dt>Tour operator:</dt>
+                  <dd>Road Runner</dd>
+                </div>
+                <div>
+                  <dt>Max group size:</dt>
+                  <dd>18</dd>
+                </div>
+                <div>
+                  <dt>Free cancellation</dt>
+                  <dd>Cancel up to 24 hours</dd>
+                </div>
+              </dl>
+              <dl>
+                <div>
+                  <dt>Age range:</dt>
+                  <dd>18-65</dd>
+                </div>
+                <div>
+                  <dt>Operated in:</dt>
+                  <dd>English</dd>
+                </div>
+                <div>
+                  <dt>Instant confirmation</dt>
+                  <dd>Receive ticket directly</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <div class="booking-info_price">
+            <span>From</span>
+            <span class="booking-info_price_euro">€1500</span>
+            <div class="">
+              <a href="../pages/catalog.html">
+                <button type="button" class="btn btn-primary">
+                  Book now !
+                </button></a
+              >
+              <button type="button" class="btn btn-heart">
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </button>
+            </div>
+            <span class="booking-info_price_text"
+              ><i
+                class="fa-solid fa-business-time icon-m"
+                style="color: #004369"
+              ></i
+              ><b>Pay over time </b> with smaller, interest-free instalments.
+              <a href="">Learn More</a></span
+            >
+            <span class="booking-info_price_text"
+              ><i
+                class="fa-regular fa-credit-card icon-m"
+                style="color: #004369"
+              ></i
+              ><b>Book once </b> and share the cost with split payments.
+              <a href="">Learn More</a>
+            </span>
+          </div>
+        </section>
+      </section>
+
+      <section class="booking-details">
+        <div class="booking-details_part1">
+          <h1>Highlights</h1>
+          <div>
+            <ul>
+              <li>Discover the stunning volcanic scenery of Barcelona</li>
+              <li>
+                Snap a photo of whitewashed churches and blue domes in Madrid
+              </li>
+              <li>Sample cuisine in authentic seafront tavernas</li>
+              <li>Snorkel from Golden Beach and see the natural beauty</li>
+            </ul>
+          </div>
+        </div>
+        <div class="booking-details_part1">
+          <h1>Itinerary</h1>
+          <span
+            >Start in Barcelona and end in Malaga! With the Road Runner tour,
+            you have a 14 days tour package taking you through Barcelona,
+            Madrid, Valencia and 5 other destinations in Spain. Spain Wanderer
+            package includes accommodation in a hotel as well as an expert
+            guide, meals, transport and more.</span
+          >
+        </div>
+        <div class="booking-details_offers">
+          <span class="">
+            If you are willing to go to other destinations, check our other tour
+            packages <i class="fa-solid fa-arrow-turn-down fa-xs"></i>
+          </span>
+
+          <a href="../pages/catalog.html">
+            <button
+              type="button"
+              class="btn btn-primary booking-details_offers_btn"
+            >
+              Check other destinations
+            </button>
+          </a>
+        </div>
+      </section>
+    </main>
     <footer></footer>
-</body>
-<script src=""></script>
+  </body>
+  <script
+    type="text/javascript"
+    src="//code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="../scripts/booking-script.js"></script>
 </html>

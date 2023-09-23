@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap");
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "Nunito Sans", serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+  background: url(../img/frame7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #004369; }
+  body h1 {
+    font-weight: 600;
+    color: #004369; }
+
+.book-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 100%; }
+  .book-container .booking-slider {
+    width: 59%;
+    list-style: none;
+    margin-right: 20px; }
+    .book-container .booking-slider img {
+      width: 100%;
+      height: auto;
+      border-radius: 3%; }
+  .book-container .booking-info_text {
+    margin-bottom: 20px; }
+    .book-container .booking-info_text p {
+      font-size: 1.5rem;
+      font-weight: 700; }
+    .book-container .booking-info_text_wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px; }
+  .book-container .booking-info_price {
+    padding: 24px;
+    border-radius: 13px;
+    box-shadow: 0 1px 2px rgba(3, 54, 63, 0.4), 0 -1px 2px rgba(3, 54, 63, 0.04); }
+    .book-container .booking-info_price_euro {
+      display: block;
+      font-weight: 600;
+      font-size: 1.6rem;
+      margin-bottom: 10px; }
+    .book-container .booking-info_price .btn-heart {
+      width: 50px; }
+    .book-container .booking-info_price_text {
+      margin-top: 10px;
+      display: block;
+      font-size: 1.1rem; }
+      .book-container .booking-info_price_text a {
+        text-decoration: none; }
+    .book-container .booking-info_price .icon-m {
+      margin-right: 10px; }
+  .book-container .booking-info .reviews {
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 1.2rem; }
+  .book-container .booking-info .days14 {
+    margin-left: 15px; }
+
+.booking-details_part1, .booking-details_part2 {
+  margin-bottom: 30px; }
+
+.booking-details_offers {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; }
+  .booking-details_offers span {
+    display: block;
+    font-weight: 700;
+    font-size: 1.5rem; }
+
+.btn-primary {
+  border-radius: 32px;
+  font-family: "Merriweather Sans", serif;
+  font-weight: 600;
+  padding: 10px 40px; }
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 40px;
+  color: #fff; }
+
+.slick-prev {
+  left: 5%;
+  z-index: 1; }
+
+.slick-next {
+  right: 5%;
+  z-index: 1; }
+
+.btn-heart {
+  color: gray;
+  margin-left: 10px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  width: 30px;
+  height: 47px; }
+
+.info-image {
+  padding: 24px;
+  border-radius: 13px;
+  box-shadow: 0 1px 2px rgba(3, 54, 63, 0.4), 0 -1px 2px rgba(3, 54, 63, 0.04); }
+
+@media (max-width: 1000px) {
+  .book-container {
+    flex-direction: column; }
+  .booking-info_price {
+    margin-bottom: 40px; } }
