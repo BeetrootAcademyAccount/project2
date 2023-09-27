@@ -3,6 +3,8 @@
     "watch:scss": "node-sass -w assets/style/login.scss assets/style/login.css && node-sass -w assets/style/catalog.scss assets/style/catalog.css && node-sass -w assets/style/booking.scss assets/style/booking.css"
   },
   "dependencies": {
-    "node-sass": "^9.0.0"
+    "-": "^0.0.1",
+    "node-sass": "^9.0.0",
+    "sass": "^1.68.0"
   }
 }
