@@ -1,19 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style/styles.css" type="text/css">
-    <title>Home</title>
-</head>
-<body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-</body>
-<script src=""></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    >
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <link rel="stylesheet" href="./assets/style/landing.css" type="text/css" />
+    <title>RoadRunner: Home</title>
+  </head>
+  <body>
+    <header class="header_landing">
+      <img
+        class="logo-container"
+        src="./assets/img/logo/road runner-logos_transparent.png"
+        alt="Roadrunner-Logo"
+      />
+      <nav class="navbar__container">
+        <ul class="navbar__list">
+          <li><a href="Home">Home</a></li>
+          <li><a href="Destinations">Destinations</a></li>
+          <li><a href="Contact Us">Contact Us</a></li>
+          <li><a href="About Us">About us</a></li>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-user"></i>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="palm_trees">
+        <img src="./assets/img/palm tress only.png" alt="palm-trees" />
+      </section>
+      <div class="destinations_slick">
+        <h1>Our Top Destinations</h1>
+      </div>
+      <!-- img slick slider -->
+      <div class="slider">
+        <div class="slider-item">
+          <img
+            src="./assets/img/TAL-walls-of-dubrovnik-dubrovnik.jpg"
+            alt="Slide 1"
+          />
+          <button class="book-now-button">Book Now</button>
+        </div>
+        <div class="slider-item">
+          <img src="./assets/img/Santorini.jpg" alt="Slide 2" />
+          <button class="book-now-button">Book Now</button>
+        </div>
+        <div class="slider-item">
+          <img src="./assets/img/eiffel-tower.jpg" alt="Slide 3" />
+          <button class="book-now-button">Book Now</button>
+        </div>
+      </div>
+      <!--contact-box------------->
+      <div class="contact-box">
+        <!--heading---------->
+        <div class="c-heading">
+          <h1>Get In Touch</h1>
+          <p>Call Or Email Us Regarding Question Or Issues</p>
+        </div>
+        <!--inputs------------------>
+        <div class="c-inputs">
+          <form>
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Example@gmail.com" />
+            <textarea name="message" placeholder="Write Message"></textarea>
+          </form>
+          <!--sumbit-btn----------->
+          <button class="send-button">SEND</button>
+        </div>
+        <!--map------------------->
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1701.5252574812218!2d74.31603229143637!3d31.46779655679461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391906abd2d8f2db%3A0x2d4bd93a1eb25b41!2sArfa%20Technologies!5e0!3m2!1sen!2s!4v1596774150754!5m2!1sen!2s"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <footer class="footer_container">
+      <h5 class="roadrunner_class">
+        RoadRunner<i class="fa-regular fa-copyright"></i>
+      </h5>
+      <h5 class="copyright_class">Copyright 2023</h5>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+    </footer>
+  </body>
+  <script src="./scripts/landing-script.js"></script>
 </html>

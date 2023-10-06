@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-color: #ffece5;
+}
+
+.header_landing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  border-style: hidden;
+  /* border-radius: 20px; */
+  /* background-color: #f0ddd7; */
+  background-color: #434543;
+  z-index: 1000; /* Ensure it's above other content */
+  box-shadow: 2px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  max-width: 7%;
+  max-height: 6%;
+}
+
+.navbar__container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__list {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 20px;
+  display: flex;
+  gap: 60px;
+}
+
+.navbar__list li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__list a {
+  color: #e7eef3;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navbar__list a:hover {
+  border-bottom: 3px solid coral;
+}
+
+.navbar__list a:active {
+  border-bottom: 3px solid coral;
+}
+
+/* PALM TREES PICTURE */
+.palm_trees {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+
+.fa-user {
+  padding-top: 5px;
+}
+.fa-magnifying-glass {
+  padding-top: 5px;
+}
+/* DESTINATIONS H1 POSITION */
+.destinations_slick {
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 2.2rem;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+/* SLICK SLIDER POSITION */
+.slider-item {
+  box-shadow: 2px 0px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding-left: 500px;
+}
+
+/* BUTTON FOR SLICK SLIDER */
+.book-now-button {
+  background-color: coral;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-bottom: 2%;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-button:hover {
+  background-color: #0056b3;
+}
+/* CONTACT WITH MAP */
+
+.contact-box {
+  background-color: #434543;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /*you might need to remove this*/
+  box-shadow: 2px 0px 0px rgba(0, 0, 0, 0.1);
+  padding-left: 30%;
+}
+
+.c-heading h1 {
+  font-family: inherit;
+  color: #e7eef3;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.c-heading p {
+  font-family: inherit;
+  color: #cecece;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.c-inputs {
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-inputs input {
+  width: 250px;
+  height: 45px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(251, 251, 251, 0.1);
+  outline: none;
+  margin: 10px 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #f4f4f4;
+  display: flex;
+}
+
+.c-inputs textarea {
+  width: 250px !important;
+  height: 200px !important;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid rgba(82, 82, 82, 1);
+  color: #f4f4f4;
+  padding: 10px;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+}
+
+.c-inputs button {
+  width: 200px;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+  margin-bottom: 100px;
+}
+
+.send-button {
+  position: initial;
+}
+
+.c-inputs input:focus {
+  border-bottom: 1px solid rgba(252, 252, 252, 1);
+  transition: all ease 0.5s;
+}
+
+.c-inputs textarea:focus {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  transition: all ease 0.5s;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.c-inputs button:active {
+  transform: scale(1.02);
+}
+
+.map {
+  filter: grayscale(0.2);
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  border: 2px solid #ffffff;
+  position: absolute;
+  margin-left: 20%;
+  /* width: 100%; */
+}
+
+@media (max-width: 1100px) {
+  .map {
+    display: flex;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar__list {
+    flex-direction: column; /* Stack links vertically on small screens */
+    gap: 20px; /* Reduce the gap between links */
+    padding-right: 0; /* Remove right padding */
+  }
+
+  .contact-box {
+    width: 100%;
+    padding: 40px; /* Adjust padding for small screens */
+  }
+
+  .c-heading h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+}
+
+.footer_container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.roadrunner_class {
+  font-size: 14px;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+/* Copyright text */
+.copyright_class {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Social media links */
+.fa-brands {
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.fa-facebook {
+  padding-left: 20px;
+}
+
+.fa-brands:hover {
+  color: coral;
+}
+
+/* Center align the social media icons */
+.footer_container h5,
+.footer_container .copyright_class,
+.footer_container .fa-brands {
+  display: inline-block;
+  vertical-align: middle;
+}
